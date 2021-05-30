@@ -1,3 +1,5 @@
+/* creer espace entre title logog w buttons about us a log in*/
+
 .spacer {
     flex: 1 1 auto;
 }
@@ -25,9 +27,16 @@ a {
     margin-right: 2%;
 }
 
+a:active {
+    color: orange;
+}
+
 div>a {
     margin-bottom: 20%;
 }
+
+
+/* hado li ham jayin kaml ta3 left side nav bar */
 
 .sidenav {
     height: 80%;
@@ -55,6 +64,10 @@ div>a {
     color: #f1f1f1;
 }
 
+.sidenav a:active {
+    color: orange;
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -70,4 +83,16 @@ div>a {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+
+/* the color and decoration of society title (logo)*/
+
+#titleLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+#titleLink:active {
+    color: orange;
 }
