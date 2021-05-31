@@ -45,7 +45,7 @@ div>a {
     z-index: 1;
     bottom: 0;
     left: 0;
-    background-color: #111;
+    background-color: #212121;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -62,6 +62,7 @@ div>a {
 
 .sidenav a:hover {
     color: #f1f1f1;
+    text-decoration: underline;
 }
 
 .sidenav a:active {
