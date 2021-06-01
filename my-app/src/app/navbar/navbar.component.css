@@ -97,3 +97,11 @@ div>a {
 #titleLink:active {
     color: orange;
 }
+
+
+/* Styling the search button*/
+
+.btnSearch {
+    color: #212121;
+    background-color: #b0bec5;
+}
