@@ -196,3 +196,7 @@ input[type="submit"] {
 .ft-legal a:active {
     color: orange;
 }
+
+.faSpace {
+    margin: 15px;
+}
