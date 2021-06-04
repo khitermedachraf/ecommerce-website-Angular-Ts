@@ -1,0 +1,72 @@
+#welcomePageContainer {
+    height: 100%;
+    width: 100%;
+    background: url(../../assets/img/bgEcommerce.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: auto;
+}
+
+
+/* Decoration of the welcome phrase*/
+
+#welcomePhrase {
+    text-align: center;
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 800%;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:active {
+    color: orange;
+}
+
+
+/* Building the the three optins container */
+
+.optionsContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+}
+
+img:hover {
+    border: 2px solid black;
+}
+
+img:active {
+    border: 2px solid orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}

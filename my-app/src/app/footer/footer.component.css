@@ -200,3 +200,9 @@ input[type="submit"] {
 .faSpace {
     margin: 15px;
 }
+
+.orangeBtn {
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+}

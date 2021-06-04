@@ -21,13 +21,15 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { FooterComponent } from './footer/footer.component';
+import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     RegisterUserComponent,
-    FooterComponent
+    FooterComponent,
+    WelcomePageComponent
   ],
   imports: [
     BrowserModule,
