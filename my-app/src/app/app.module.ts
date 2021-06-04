@@ -12,6 +12,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 
 
@@ -43,7 +45,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     MatTabsModule,
     MatCardModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatMenuModule
     
   ],
   providers: [],
