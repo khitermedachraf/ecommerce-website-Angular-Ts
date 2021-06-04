@@ -24,6 +24,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
     NavbarComponent,
     RegisterUserComponent,
     FooterComponent,
-    WelcomePageComponent
+    WelcomePageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
