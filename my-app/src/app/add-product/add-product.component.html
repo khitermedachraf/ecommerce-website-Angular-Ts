@@ -5,17 +5,36 @@
         <hr>
 
         <label for="nameProduct"><b>name Product</b></label>
-        <input type="text" placeholder="Enter name product" name="nameProduct" id="nameProduct" required>
+        <input type="text" placeholder="Enter name product" name="nameProduct" id="nameProduct" required><br>
+
+        <label for="informatique"><b>Category of product</b></label><br><br>
+
+        <input type="radio" id="informatique" name="categoryOfProduct" value="informatique">
+        <label for="informatique">Informatique </label><br>
+        <input type="radio" id="electromenager" name="categoryOfProduct" value="electromenager">
+        <label for="electromenager"> Electromenager</label><br>
+        <input type="radio" id="accessoires" name="categoryOfProduct" value="accessoires">
+        <label for="accessoires">Telephone & Accessoires</label><br>
+        <input type="radio" id="vehicule" name="categoryOfProduct" value="vehicule">
+        <label for="vehicule">Automobile & Vehicules</label><br>
+        <input type="radio" id="immobilier" name="categoryOfProduct" value="immobilier">
+        <label for="immobilier">Immobilier</label><br>
+        <input type="radio" id="beaute" name="categoryOfProduct" value="beaute">
+        <label for="beaute">Mode & beaute</label><br><br>
 
         <label for="description"><b>Description of product</b></label>
         <textarea id="description" name="description" rows="6" cols="50" placeholder="At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies." required>
         </textarea>
 
 
+        <label for="storeOfProduct"><b> product's store</b></label>
+        <input type="text" placeholder="Enter store" name="storeOfProduct" id="storeOfProduct" required>
+
+
         <label for="quantity"><b>Quantity of product</b></label>
         <input type="text" placeholder="Enter Quantity" name="quantity" id="quantity" required>
         <hr>
-        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
 
         <button type="submit" class="registerbtn">Register</button>
     </div>
