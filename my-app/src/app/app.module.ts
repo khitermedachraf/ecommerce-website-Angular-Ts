@@ -25,6 +25,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { FooterComponent } from './footer/footer.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
+import { AboutusPageComponent } from './aboutus-page/aboutus-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
     RegisterUserComponent,
     FooterComponent,
     WelcomePageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    AboutusPageComponent
   ],
   imports: [
     BrowserModule,
