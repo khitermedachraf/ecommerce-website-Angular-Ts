@@ -28,6 +28,8 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { AboutusPageComponent } from './aboutus-page/aboutus-page.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AddCategoryComponent } from './add-category/add-category.component';
+import { AddStoreComponent } from './add-store/add-store.component';
+import { AddInfoProfileComponent } from './add-info-profile/add-info-profile.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { AddCategoryComponent } from './add-category/add-category.component';
     ContactPageComponent,
     AboutusPageComponent,
     AddProductComponent,
-    AddCategoryComponent
+    AddCategoryComponent,
+    AddStoreComponent,
+    AddInfoProfileComponent
   ],
   imports: [
     BrowserModule,
