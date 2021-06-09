@@ -30,6 +30,7 @@ import { AddProductComponent } from './add-product/add-product.component';
 import { AddCategoryComponent } from './add-category/add-category.component';
 import { AddStoreComponent } from './add-store/add-store.component';
 import { AddInfoProfileComponent } from './add-info-profile/add-info-profile.component';
+import { OneProductComponent } from './one-product/one-product.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { AddInfoProfileComponent } from './add-info-profile/add-info-profile.com
     AddProductComponent,
     AddCategoryComponent,
     AddStoreComponent,
-    AddInfoProfileComponent
+    AddInfoProfileComponent,
+    OneProductComponent
   ],
   imports: [
     BrowserModule,
