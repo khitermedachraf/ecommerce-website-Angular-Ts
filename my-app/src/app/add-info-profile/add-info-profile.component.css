@@ -35,7 +35,6 @@ input[type=password]:focus,
 textarea,
 input[type=phone] {
     background-color: #ddd;
-    outline: none;
 }
 
 
